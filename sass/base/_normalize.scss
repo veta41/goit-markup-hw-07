@@ -15,6 +15,29 @@ Use a better box model (opinionated).
 	box-sizing: border-box;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 /**
 1. Correct the line height in all browsers.
 2. Prevent adjustments of font size after orientation changes in iOS.
@@ -40,6 +63,9 @@ Sections
 
 body {
 	margin: 0; /* 1 */
+	letter-spacing: 0.03em;
+  color: $colorTextBody;
+  background-color: $bgColorBody;
 	font-family:
 		system-ui,
 		-apple-system, /* Firefox supports this but not yet `system-ui` */
