@@ -3,7 +3,7 @@
   text-align: center;
 }
 
-.user {
+.team-user {
   // width: calc((100% -90px) / 4);
   margin-right: 30px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -16,22 +16,21 @@
 }
 
 
-.user__team {
+.team-user__title {
   margin-bottom: 10px;
-
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   color: var(--title);
 }
 
-.user__footer {
+.team-user__footer {
   background-color: var(--secondary);
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-.user__career {
+.team-user__career {
   margin-bottom: 16px;
   font-size: 16px;
   line-height: 1.19;

@@ -1,5 +1,6 @@
 
 @import "./utils/variables";
+@import "./utils/mixin";
 @import "./base/reset";
 @import "./base/visually-hidden";
 
@@ -10,6 +11,7 @@
 @import "./components/section";
 @import "./components/section_title";
 @import "./components/social";
+@import "./components/btn.scss";
 
 @import "./layout/clients";
 @import "./layout/contact_footer";

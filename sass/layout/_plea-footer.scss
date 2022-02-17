@@ -17,9 +17,7 @@
   margin-right: 10px;
 }
 .plea-list__link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include centerFlex;
   width: 44px;
   height: 44px;
   border-radius: 50%;

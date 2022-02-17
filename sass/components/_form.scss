@@ -4,9 +4,7 @@
 }
 
 .form-footer{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include centerFlex;
 }
 .form-footer__input {
   min-width: 358px;

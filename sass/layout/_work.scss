@@ -12,9 +12,8 @@
 }
 
 .work__text {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+ 
+  @include centerFlex;
   position: absolute;
   bottom: 0;
   width: 100%;
