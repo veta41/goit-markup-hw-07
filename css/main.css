@@ -362,8 +362,7 @@ img {
   color: rgba(117, 117, 117, 0.5);
 }
 
-.btn-form {
-  width: 200px;
+.btn__form {
   margin: 0 auto;
 }
 
