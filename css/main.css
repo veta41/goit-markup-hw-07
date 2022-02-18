@@ -370,12 +370,12 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-bottom: 30px;
   font-size: 14px;
   line-height: 1.71;
@@ -440,7 +440,8 @@ img {
       -ms-flex-pack: center;
           justify-content: center;
 }
-.social:not(:last-child) {
+
+.social__item-icon:not(:last-child) {
   margin-right: 10px;
 }
 

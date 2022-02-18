@@ -154,9 +154,7 @@
 }
 
 .form-modal__checkbox {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+@include centerFlex;
   margin-bottom: 30px;
   font-size: 14px;
   line-height: 1.71;

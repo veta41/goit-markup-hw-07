@@ -3,12 +3,12 @@
   display: flex;
   justify-content: center;
 
-  &:not(:last-child) {
-    margin-right: 10px;
-  }
+  
 }
 
-
+.social__item-icon:not(:last-child) {
+  margin-right: 10px;
+}
 
 .social__icon-link {
   @include centerFlex;
@@ -17,6 +17,8 @@
   border-radius: 50%;
   background-color: transparent;
   transition: background-color 250ms var(--transition-timing);
+
+
 
   &:hover,
   &:focus {
